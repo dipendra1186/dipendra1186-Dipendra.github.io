@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 1000px;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+p{
+    color: rgb(12, 94, 246);
+    font-size: larger;
+}
+
+nav ul{
+    list-style:none;
+    float: right;
+    margin: 0px;;
+    padding: 0px;
+    display: flex;
+}
+
+body{
+    background-image: url(Image/singing.jpg.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    justify-content: center;
+}
+.right{
+    height: 100px;
+    width: 50%;
+}
+
+.left{
+    color: rgb(20, 4, 4);
+    width: 50%;
+    height: 30vh;
+    border-color: yellow;
+    padding-left: 50px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.container{
+    margin: 0px;
+    padding: 60px;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid rgb(18, 230, 113);
+    display: flex;
+    border-color: rgb(242, 75, 15);
+    background-image: linear-gradient(rgba(241, 188, 188, 0.918),rgba(0,0,0,0.3));
+    background-color: rgb(198, 193, 25);
+}
+.right img{
+    width: 250px;
+    padding-bottom: 300px;
+
+}
+
+.left p{
+  padding: 10px;
+  text-transform: none;
+}
+.active{
+    
+    color:rgb(255, 125, 4)
+}
+a:after{
+    content: '';
+    position: absolute;
+    background-color: rgb(104, 7, 239);
+    height: 3px;
+    width: 0%;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s ease-in-out;
+}
+a:hover:after{
+    width: 100%;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+#para{
+    font-size: 30px;
+    border-bottom:5px solid rgb(15, 158, 253); ;
+    width: 50vh;
+    color: rgb(14, 189, 252);
+}
+#fb{
+    color: rgb(3, 9, 10);
+}
+#ins{
+    color: rgb(32, 3, 3)
+}

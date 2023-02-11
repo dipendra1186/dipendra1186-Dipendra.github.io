@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 1000px;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+
+nav ul{
+    list-style:none;
+    float: right;
+    margin: 0px;;
+    padding: 0px;
+    display: flex;
+}
+
+body{
+    background-image: url(Image/movie.jpg.jpg);
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: cover;
+    justify-content: center;
+}
+.right{
+    height: 50px;
+    width: 50%;
+}
+
+.left{
+    color: rgb(23, 193, 235);
+    width: 50%;
+    height: 50vh;
+    border-color: yellow;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.container{
+    margin: 90px;
+    height: 50vh;
+    width: 90%;
+    border: 2px solid black;
+    display: flex;
+    border-color: rgb(98, 109, 29);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+}
+.right img{
+   
+    width: 418px;
+    padding-bottom: 300px;
+
+}
+.left h1{
+    padding-left: 80px; 
+    border-bottom:5px solid white;
+    width: 65vh;
+}
+
+.left p{
+  padding: 10px;
+  text-transform: none;
+}
+.active{
+    
+    color:yellow
+}
+a:after{
+    content: '';
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width: 0%;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s ease-in-out;
+}
+a:hover:after{
+    width: 100%;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 242, 242);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.his{
+    color:rgb(223, 173, 56);
+}
+#par{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 6px solid  white;
+    width: 75vh;
+    word-spacing: 6px;
+    letter-spacing: 1.5px;
+}

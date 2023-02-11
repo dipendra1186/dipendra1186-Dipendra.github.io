@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 1000px;
+    box-sizing: border-box;
+    line-height: 50px;  
+    text-transform: uppercase;  
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0px;;
+    padding: 0px;
+    display: flex;
+}
+
+body{
+    background-image: url(Image/movie.jpg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    justify-content: center;
+}
+
+
+.container{
+    margin: 40px;
+    float: right;
+    height: 60vh;
+    width: 50%;
+    border-radius: 20px 25px;
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+.active{
+    
+    color:yellow
+}
+a:after{
+    content: '';
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width: 0%;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s ease-in-out
+}
+a:hover:after{
+    width: 100%;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 242, 242);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.aim{
+    margin:20px 40px;
+    color:white
+}
+.list ol{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;;
+    padding: 0px;
+}
+.list ol li{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color:yellow
+}
+
+.list p{
+    font-size: 50px;
+    color: burlywood;
+}
+#par{
+    font-size: 25px;
+    color: rgb(13, 8, 8);
+    background-color:yellow;
+    width: 50%;
+    border-radius: 18px 18px;
+    padding-left:20px ;
+}
